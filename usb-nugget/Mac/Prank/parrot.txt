@@ -1,0 +1,11 @@
+// Opens a rickroll in YouTube in full screen at maximum volume.
+
+WAIT 100
+GUI SPACE
+WAIT 10
+TYPE terminal
+WAIT 100
+ENTER
+WAIT 100
+TYPE curl parrot.live
+ENTER

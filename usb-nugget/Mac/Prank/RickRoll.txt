@@ -1,0 +1,19 @@
+// Opens a rickroll in YouTube in full screen at maximum volume.
+
+WAIT 100
+GUI SPACE
+WAIT 10
+TYPE terminal
+WAIT 100
+ENTER
+WAIT 100
+TYPE open 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+ENTER
+WAIT 1000
+COMMAND TAB
+WAIT 10
+TYPE osascript -e 'set volume 7' && killall Terminal
+ENTER
+WAIT 1500
+TYPE f
+

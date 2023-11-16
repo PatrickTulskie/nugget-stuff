@@ -1,0 +1,8 @@
+CTRL ALT T
+WAIT 1000
+TYPE firefox "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+ENTER
+WAIT 4000
+SPACE
+WAIT 1000
+TYPE F
